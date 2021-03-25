@@ -18,6 +18,12 @@ public class WriteToFile {
                 sb.append(test.name);
                 sb.append(',');
                 sb.append(test.price);
+                sb.append(',');
+                sb.append(test.discount);
+                sb.append(',');
+                sb.append(test.startedPrice);
+                sb.append(',');
+                sb.append(test.deliver);
                 sb.append('\n');
 
                 writer.write(sb.toString());
